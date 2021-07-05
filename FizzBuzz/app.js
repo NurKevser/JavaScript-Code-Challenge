@@ -11,3 +11,10 @@ for(i = 0; i <= number; i++){
         console.log(i)
     }
 }
+
+
+//      TERNARY SOLUTION
+
+for(let i = 1; i <= 100; i++)
+console.log(`${i} ${i % 3 === 0 && "Fizz" || ""} ${i % 5 === 0 && "Buzz" || ""}`)   
+//tek satırda FizzBuzz = çıktıyı alırken stringleri concatenate yapıyor ve bunu yaparken eğer ikisi de doğruysa birinciyi alıyor ikisi de yanlışsa 2.yi alıyor boolean mantığı
