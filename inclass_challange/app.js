@@ -74,3 +74,9 @@ const words = [
   'Clarusway',
   'Future',
 ];
+
+words.forEach(el => {
+  const newArr = el.length > 6 ? el : ""
+  console.log(newArr)
+  
+});
