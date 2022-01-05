@@ -22,7 +22,11 @@
                 }
             }, (seconds * 1000) / 100);
         } */
-
+        function fillBar(seconds) {
+            const bar = document.querySelector(".bar");
+            bar.style.width= "100%";
+            bar.style.transition = `${seconds}s linear width`;
+        }
     </script>
 
     <style>
